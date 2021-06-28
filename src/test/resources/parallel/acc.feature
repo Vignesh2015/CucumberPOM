@@ -23,3 +23,16 @@ Then user gets accounts section
 |Home|
 And accounts section count should be 6
 
+
+@accounts @Smoke @Skip
+Scenario: Accounts section market
+Given user is on Accounts page
+Then user gets accounts section
+|ORDER HISTORY AND DETAILS|
+|MY CREDIT SLIPS|
+|MY ADDRESSES|
+|MY PERSONAL INFORMATION|
+|MY WISHLISTS|
+|Home|
+And accounts section count should be 6
+
